@@ -93,7 +93,25 @@
             <h2>Trending Courses</h2>
         </div>
 
-        <div class="slider" id="trend_course"></div>
+        <div class="gallery" id="trend_course">
+            <div class="image-container" id="game_develop_image">
+                <img src="assets/image 3.png" alt="game_develop">
+                <div class="caption">Game Development</div>
+            </div>
+            <div class="image-container">
+                <img src="assets/image 36.png" alt="marketing">
+                <div class="caption">Marketing Strategy</div>
+            </div>
+            <div class="image-container">
+                <img src="assets/image 37.png" alt="Data_analysis">
+                <div class="caption">Data Analysis With python</div>
+            </div>
+            <div class="image-container">
+                <img src="assets/Frame 102.png" alt="marketing">
+                <div class="caption">Advances UX Designer</div>
+            </div>
+            <!-- Add more image containers as needed -->
+        </div>
 
         <div class="section" id="online_exam">
             <div class="text">
@@ -112,7 +130,25 @@
             <h2>Test your ability here</h2>
         </div>
 
-        <div class="slider"  id="test"></div>
+        <div class="gallery" id="test">
+            <div class="image-container" id="game_develop_image">
+                <img src="assets/image 3.png" alt="game_develop">
+                <div class="caption">Game Development</div>
+            </div>
+            <div class="image-container">
+                <img src="assets/image 36.png" alt="marketing">
+                <div class="caption">Marketing Strategy</div>
+            </div>
+            <div class="image-container">
+                <img src="assets/image 37.png" alt="Data_analysis">
+                <div class="caption">Data Analysis With python</div>
+            </div>
+            <div class="image-container">
+                <img src="assets/Frame 102.png" alt="marketing">
+                <div class="caption">Advances UX Designer</div>
+            </div>
+            <!-- Add more image containers as needed -->
+        </div>
 
         <div class="section" id="publication">
             <div class="image">
@@ -131,8 +167,25 @@
             <h2>Recent Publications</h2>
         </div>
 
-        <div class="slider" id="recent_publication"></div>
-
+        <div class="gallery" id="test">
+            <div class="image-container" id="nature_of_sience">
+                <img src="assets/image 40-1.png" alt="nature of science">
+                <div class="caption">Nature Of Science</div>
+            </div>
+            <div class="image-container">
+                <img src="assets/image 41.png" alt="marketing">
+                <div class="caption">2022 Astro Report</div>
+            </div>
+            <div class="image-container">
+                <img src="assets/image 37.png" alt="Data_analysis">
+                <div class="caption">Data Analysis With python</div>
+            </div>
+            <div class="image-container">
+                <img src="assets/Frame 102.png" alt="marketing">
+                <div class="caption">Advances UX Designer</div>
+            </div>
+            <!-- Add more image containers as needed -->
+        </div>
         
         <div class="about_us">
             <div class="subject"><h2>Notable lntructors</h2></div>
@@ -176,7 +229,7 @@
 
             <div class="form_info" style="display: flex;">
                 <div class="info">
-                    <ul>
+                    <ul id="main_ul" >
                         <li  class="main_row">
                             <ul>
                                 <li class="info_pic, info_row"><img src="assets/Icon.png"></li>
@@ -222,26 +275,64 @@
 
                 <div class="touch_form">
                     <form class="info_form">
-                        <div class="form-group">
-                            <input type="text" id="full-name" name="full-name" placeholder="Full name" required>
+                        <div class="info_form-group">
+                            <input type="text" id="name" name="full-name" placeholder="Name" required>
                         </div>
                         <div class="form-group">
                             <input type="email" id="email" name="email" placeholder="Email" required>
                         </div>
                         <div class="form-group">
-                            <input type="tel" id="phone" name="phone" placeholder="Phone number" required>
+                            <input type="text" id="subject" name="phone" placeholder="Subject" required>
                         </div>
-                        <div class="form-group">
-                            <input type="text" id="phone" name="phone" placeholder="Phone number" required>
+                        <div class="form-group" id="input_text_container">
+                            <input type="text" id="input_text" name="phone" placeholder="Input text" required>
                         </div>
-                        <button type="submit">Apply</button>
+                        <button type="submit">Send</button>
                     </form>
                 </div>
             </div>
         </div>
 
         <footer>
-            <div class="information"></div>
+            <section class="information">
+                <div id="phrease">
+                    <ul>
+                        <li><img src="assets/Group 180 (2).png"></li><br>
+                        <li style="width: 50%;">we are not here to sell you products, we sell value through our experties</li><br>
+                        <li><img src="assets/Frame 6555.png"></li>
+                    </ul>
+                </div>
+
+                <div id="address">
+                    <address>
+                        <p>Addrese:</p>
+                        <p>38 opebi, isad, lagos state, Neigan</p>
+
+                        <p>Phone</p>
+                        <p>+98345634653</p>
+
+                        <p>Email</p>
+                        <p>oharetmis.2002@gmail.com</p>
+                    </address>
+                </div>
+
+                <di id="company">
+                    <p>Company</p><br>
+                    <a>About Us</a><br><br>
+                    <a>Features</a><br><br>
+                    <a>Pricing</a><br><br>
+                </di>
+            </section>
+
+            <section class="subscribe">
+                <h5>subscribe to get latest updates</h5>
+                <div class="email-container">
+                    <div class="input-container">
+                        <input type="email" class="email-box" placeholder="Enter your email...">
+                        <button class="submit-button">Submit</button>
+                    </div>
+                </div>
+            </section>
         </footer>
     </body>
 </html>

@@ -1,36 +1,46 @@
-h1, h2, h3, h4, h5, p
-{
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .section {
     display: flex;
-    justify-content: space-between; /* Space equally between text and image */
-    align-items: center; /* Vertically center content */
+    justify-content: space-between;
+    /* Space equally between text and image */
+    align-items: center;
+    /* Vertically center content */
 }
 
 .text {
-    flex: 1; /* Text takes up half of the container */
+    flex: 1;
+    /* Text takes up half of the container */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 200%;
 }
 
-#publication .text , #offer .text
-{
+#publication .text,
+#offer .text {
     padding-left: 100px;
     padding-right: 60px;
 }
 
-#online_exam .text, #header_section .text
-{
+#online_exam .text,
+#header_section .text {
     padding-left: 60px;
 }
 
 .image {
-    flex: 1; /* Image takes up half of the container */
+    flex: 1;
+    /* Image takes up half of the container */
 }
 
 .image img {
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    max-width: 100%;
+    /* Ensure the image doesn't exceed its container */
     height: auto;
     display: flex;
     justify-content: center;
@@ -44,8 +54,7 @@ h1, h2, h3, h4, h5, p
     font-size: 200%;
 }
 
-.header_menu li
-{
+.header_menu li {
     float: left;
     display: block;
     text-align: center;
@@ -56,8 +65,7 @@ h1, h2, h3, h4, h5, p
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.sign_in
-{
+.sign_in {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -104,8 +112,7 @@ button {
     width: 200px;
 }
 
-.sign_in .form button
-{
+.sign_in .form button {
     margin-left: 30px;
     margin-top: 50px;
 }
@@ -114,89 +121,85 @@ button:hover {
     background-color: rgb(212, 212, 212);
 }
 
-.sign_in .form h2{
+.sign_in .form h2 {
     margin-left: 30px;
 }
 
-.sign_in .text
-{
+.sign_in .text {
     padding: 50px;
 }
 
-#offer .image, #publication .image
-{
+#offer .image,
+#publication .image {
     padding-left: 70px;
 }
 
-#online_exam .image, #header_section .image
-{
+#online_exam .image,
+#header_section .image {
     padding-left: 140px;
 }
 
-#header_menu_img
-{
+#header_menu_img {
     padding-right: 80px;
 }
 
-#search_box
-{
+#search_box {
     padding-top: 15px;
-    
+
 }
 
-#search_box input
-{
+#search_box input {
     height: 10px;
     width: 120%
 }
 
-#profile_pic
-{
+#profile_pic {
     padding-left: 100px;
     padding-top: 15px;
 }
 
-#profile_pic button
-{
+#profile_pic button {
     width: 60px;
     height: 60px;
     background-color: rgb(45, 100, 45);
     border-radius: 50%;
 }
 
-#header_section li{
+#header_section li {
     float: left;
     padding-right: 15px;
-    
+
 }
 
-#header_section .image
-{
+#header_section .image {
     padding-top: 30px;
 }
 
-#header_section .image img
-{
+#header_section .image img {
     width: 80%;
 }
 
-#header_section .text h2, #header_section .text h5
-{
+#header_section .text h2,
+#header_section .text h5 {
     padding-left: 40px;
 }
 
-#header_section
-{
-    width: 100%; /* Set the width of the parent container */
-    height: 450px; /* Set the height of the parent container */
-    background-image: url('assets/image\ 22.png'); /* Replace with the path to your image */
-    background-size: cover; /* Cover the entire container with the background image */
-    background-position: center; /* Center the background image */
-    color: #fff; /* Set text color to be visible on top of the image */
+#header_section {
+    width: 100%;
+    /* Set the width of the parent container */
+    height: 450px;
+    /* Set the height of the parent container */
+    background-image: url('assets/image\ 22.png');
+    /* Replace with the path to your image */
+    background-size: cover;
+    /* Cover the entire container with the background image */
+    background-position: center;
+    /* Center the background image */
+    color: #fff;
+    /* Set text color to be visible on top of the image */
 }
 
-.subject 
-{
+.subject {
     padding-top: 30px;
     padding-bottom: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -204,105 +207,243 @@ button:hover {
     color: #4e4242;
 }
 
-.section .text h3
-{
+.section .text h3 {
     color: rgb(6, 110, 81);
     font-size: 65px;
     font-weight: bolder;
 }
 
-.section .text h4
-{
+.section .text h4 {
     color: #4e4242;
     font-size: 50px;
     font-weight: lighter;
     margin-bottom: 5px;
 }
 
-.section .text p
-{
+.section .text p {
     color: #615b5b;
     font-weight: lighter;
 }
 
-#personnel .person
-{
+#personnel .person {
     display: inline-block;
 }
 
-#personnel img
-{
+#personnel img {
     height: 50px;
     width: 50px;
     border-radius: 50%;
 }
 
-#personnel ul
-{
+#personnel ul {
     text-align: center;
     margin-right: 100px;
     margin-left: 100px;
 }
 
-.about_us 
-{
+.about_us {
     padding-bottom: 50px;
 }
 
-.get_in_touch .subject
-{
+.get_in_touch .subject {
     margin-bottom: 0px;
 }
 
-.get_in_touch p
-{
+.get_in_touch p {
     text-align: center;
     padding-right: 300px;
     padding-left: 300px;
     font-size: 20px;
     margin-top: 0px;
-    color:#4e4242;
+    color: #4e4242;
 }
 
-.info
-{
+.info {
     flex: 1;
 }
 
-.touch_form
-{
+.touch_form {
     flex: 1;
 }
 
-.info_row
-{
+.info_row {
     float: left;
 }
 
-.main_row
-{
+.main_row {
     padding-bottom: 10px;
 }
 
-ul
-{
+ul {
     list-style-type: none;
 }
 
-.info_form
-{
+.info_form {
     width: 45%;
     padding: 20px;
-    margin-left: 100px;
-    margin-right: 40px;
     border-radius: 4px;
 }
 
 
-.margin_form-group {
+.info_form-group {
     margin-bottom: 15px;
     margin-left: 30px;
     margin-right: 60px;
+}
+
+.info_form input {
+
+    width: 160%;
+    padding: 20px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#input_text
+{
+    height: 100px;
+}
+
+.form_info
+{
+    padding: 20px;
+}
+
+.form_info .info, .form_info .touch_form
+{
+    padding: 10px;
+}
+
+.info{
+    width: 100px;
+    margin-left: 100px;
+    /*background-color: #4e4242;*/
+}
+
+.info #main_ul
+{
+    border: 2px solid #000;
+   /* background-color: yellow; */
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 50px;
+    padding: 20px;
+    padding-right: 3px;
+    padding-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row; /* Arrange items horizontally (default) */
+    justify-content: flex-start; /* Align items to the start (left) of the container */
+    padding-bottom: 150px;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#game_develop_image
+{
+    margin-left: 80px;
+}
+
+#nature_of_sience
+{
+    margin-left: 80px;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    color: #fff;
+    padding: 8px;
+    text-align: left;
+    font-size: 200%;
+}
+
+.touch_form button
+{
+    margin-top: 40px;
+    margin-left: 150px;
+    height: 50px;
+    width: 250px
+    
+}
+
+.information
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #fff;
+}
+
+.information *
+{
+    position: relative;
+    overflow: hidden;
+}
+
+#phrease
+{
+    margin-left: 60px;
+}
+
+#address
+{
+    margin-left: 280px;
+}
+
+#company
+{
+    margin-left: 140px;
+}
+
+.email-container {
+    display: flex;
+}
+
+.input-container {
+    display: flex;
+}
+
+.email-box {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0; /* Adjust border-radius to match the input */
+    cursor: pointer;
+}
+
+footer
+{
+    background-color: rgb(58, 81, 75);
 }
 
 
