@@ -324,6 +324,7 @@ ul {
 .info #main_ul
 {
     border: 2px solid #000;
+    border-radius: 10px;
    /* background-color: yellow; */
     width: 50%;
     margin-top: 30px;
@@ -392,7 +393,6 @@ ul {
     display: flex;
     flex-direction: row;
     padding-top: 80px;
-    padding-bottom: 80px;
     color: #fff;
 }
 
@@ -419,31 +419,84 @@ ul {
 
 .email-container {
     display: flex;
-}
-
-.input-container {
-    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    justify-content: center;
 }
 
 .email-box {
+    border-radius: 0;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    flex: 1;
+    width: 400px;
+    margin-right: 0px;
+    border-top: #fff;
+}
+
+.email-box::placeholder
+{
+    color: rgb(27, 67, 80);
+    font-size: 15px;
 }
 
 .submit-button {
+    border-radius: 0;
+    margin-left: 0px;
     padding: 10px;
-    background-color: #007bff;
+    background-color: rgb(59, 117, 134);
+    border-bottom: rgb(59, 117, 134);
+    border-left: rgb(59, 117, 134);
+    border-right: rgb(59, 117, 134);
     color: #fff;
-    border: none;
-    border-radius: 0 5px 5px 0; /* Adjust border-radius to match the input */
     cursor: pointer;
+    height: 60px;
+    width: 200px;
+    margin-top: 2px;
 }
 
+.subscribe
+{
+    text-align: center;
+}
+
+.subscribe h5
+{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.sign
+{
+    padding-left: 100px;
+}
+
+.sign img
+{
+    margin-right: 10px;
+    height: 35px;
+}
+
+.sign p
+{
+    color: #ffffff;
+    font-size: x-large;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+#sign_img
+{
+    padding-top: 20px;
+}
+
+#info
+{
+    background-color: #000;
+}
 footer
 {
-    background-color: rgb(58, 81, 75);
+    background-color: rgb(27, 53, 61);
 }
 
 
