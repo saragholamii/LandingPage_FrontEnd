@@ -63,7 +63,11 @@
                         <input type="tel" id="phone" name="phone" placeholder="Phone number" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" id="phone" name="phone" placeholder="Phone number" required>
+                        <select id="dropdown" name="dropdown">
+                            <option value="option1">course 1</option>
+                            <option value="option2">course 2</option>
+                            <option value="option3">course 3</option>
+                          </select>
                     </div>
                     <button type="submit">Apply</button>
                 </form>
@@ -230,8 +234,9 @@
             <div class="form_info">
                 <div class="info">
                     <ul id="main_ul" >
-                        <li  class="main_row">
-                            <ul>
+
+                        <li  class="main_row" id="first_main_row">
+                            <ul class="pic_ul">
                                 <li class="info_pic, info_row"><img src="assets/Icon.png"></li>
                                 <li>
                                     <ul>
@@ -244,7 +249,7 @@
                         </li>
 
                         <li  class="main_row">
-                            <ul>
+                            <ul class="pic_ul">
                                 <li class="info_pic, info_row"><img src="assets/Group 39.png"></li>
                                 <li>
                                     <ul>
@@ -257,7 +262,7 @@
                         </li>
 
                         <li  class="main_row">
-                            <ul>
+                            <ul class="pic_ul">
                                 <li class="info_pic, info_row"><img src="assets/Group 40.png"></li>
                                <li>
                                 <ul>
@@ -269,14 +274,14 @@
                             </ul>
                         </li>
 
-                       <!-- <li  class="main_row"><img src="assets/Frame 6555.png" style="background-color: black;"></li> -->
+                       <li  class="main_row"><img src="assets/Frame 6555.png"></li>
                     </ul>
                 </div>
 
                 <div class="touch_form">
                     <form class="info_form">
-                        <div class="info_form-group">
-                            <input type="text" id="name" name="full-name" placeholder="Name" required>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Full name" required>
                         </div>
                         <div class="form-group">
                             <input type="email" id="email" name="email" placeholder="Email" required>

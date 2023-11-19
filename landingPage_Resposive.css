@@ -3,6 +3,9 @@
 
 /* for desktop */
 @media only screen and (max-width: 10000px) {
+    ul{
+        list-style-type: none;
+    }
     * {
         font-family: Arial, Helvetica, sans-serif;
     }
@@ -92,12 +95,17 @@
         font-weight: bold;
     }
 
-    input {
+    input, select {
         width: 100%;
         padding: 20px;
         margin-top: 5px;
         border: 1px solid #ccc;
         border-radius: 4px;
+    }
+
+    select 
+    {
+        width: 107%;
     }
 
     button {
@@ -257,7 +265,87 @@
         color: #4e4242;
     }
 
-    .info {
+    .get_in_touch
+    {
+        background-color: #edf3f7;
+    }
+    
+    .get_in_touch .form_info
+    {
+        display: flex;
+        flex-direction: row;
+        padding: 60px;
+        padding-left: 300px;
+
+    }
+
+    .get_in_touch .form_info .info
+    {
+        margin-right: 50px;
+    }
+
+    .get_in_touch .form_info .info #main_ul
+    {
+        list-style-type: none;
+        border: solid rgb(211, 224, 222) 2px;
+        border-radius: 10px;
+        padding: 30px 20px 10px;
+    }
+
+    .get_in_touch .form_info .info #main_ul .main_row
+    {
+        padding: 0px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .get_in_touch .form_info .info #main_ul #first_main_row img
+    {
+        width: 110%;
+        height: 20px;
+    }
+
+    .get_in_touch .form_info .info #main_ul .pic_ul
+    {
+        padding-left: 0px;
+        display: flex;
+    }
+
+    .get_in_touch .form_info .info #main_ul .pic_ul .header_text
+    {
+        font-weight: bold;
+    }
+    
+    .get_in_touch .form_info .info #main_ul .pic_ul *
+    {
+        font-weight: lighter;
+        color: rgb(48, 48, 48);
+        font-size: 25px;
+    }
+    
+
+    .get_in_touch .form_info .touch_form
+    {
+        width: 50%;
+        padding-top: 10px;
+        margin-left: 60px;
+    }
+
+    .get_in_touch .form_info .touch_form .info_form button
+    {
+        margin-left: 310px;
+        background-color: rgb(27, 53, 61);
+        color: white;
+        font-size: larger;
+        font-weight: lighter;
+    }
+
+    .get_in_touch .form_info .touch_form .info_form #input_text_container *
+    {
+        height: 100px;
+    }
+
+    /* .info {
         flex: 1;
     }
 
@@ -316,13 +404,11 @@
     .info {
         width: 100px;
         margin-left: 100px;
-        /*background-color: #4e4242;*/
     }
 
     .info #main_ul {
         border: 2px solid #000;
         border-radius: 10px;
-        /* background-color: yellow; */
         width: 50%;
         margin-top: 30px;
         margin-left: 300px;
@@ -331,7 +417,7 @@
         padding-right: 3px;
         padding-left: 0px;
         font-family: Arial, Helvetica, sans-serif;
-    }
+    } */
 
     .gallery {
         display: flex;
@@ -573,6 +659,12 @@
         font-size: 10px;
     }
 
+    .sign_in .form .form-group select
+    {
+        width: 105%;
+    }
+
+
     .sign_in .form button
     {
         transform: scale(0.8);
@@ -768,7 +860,6 @@
     {
         padding: 0px;
         margin: 0px;
-        background-color: yellow;
     }
 
     .get_in_touch p
@@ -777,44 +868,39 @@
         padding: 0px;
     }
 
-    .get_in_touch .form_info
+     .get_in_touch .form_info
     {
+        margin: 0px;
         display: flex;
         flex-direction: column;
         padding: 0px;
-        background-color: darkred;
     }
 
     .get_in_touch .form_info .info
     {
-        position: relative;
-        flex: none;
         padding: 0px;
         margin: 0px;
-        background-color: rgb(68, 12, 120);
+        
     }
 
     .get_in_touch .form_info .info #main_ul
     {
         margin: 0px;
-        padding: 0px;
-        background-color: coral;
+        padding: 10px;
     }
 
     .get_in_touch .touch_form
     {
-        flex: none;
+        width: 100%;
         margin: 0px;
         padding: 0px;
-        background-color: yellow;
     }
 
     .get_in_touch .touch_form .info_form
     {
-        display: block;
-        float: non;
-        background-color: #ddd;
-    }
+        position: relative;
+        flex: none;
+    } 
 
     footer .information
     {
