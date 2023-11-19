@@ -1,0 +1,900 @@
+
+
+
+/* for desktop */
+@media only screen and (max-width: 10000px) {
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .section {
+        display: flex;
+        justify-content: space-between;
+        /* Space equally between text and image */
+        align-items: center;
+        /* Vertically center content */
+    }
+
+    .text {
+        flex: 1;
+        /* Text takes up half of the container */
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 200%;
+    }
+
+    #publication .text,
+    #offer .text {
+        padding-left: 100px;
+        padding-right: 60px;
+    }
+
+    #online_exam .text,
+    #header_section .text {
+        padding-left: 60px;
+    }
+
+    .image {
+        flex: 1;
+        /* Image takes up half of the container */
+    }
+
+    .image img {
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+    }
+
+    .subject {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 200%;
+    }
+
+    .header_menu li {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sign_in {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .form {
+        width: 45%;
+        padding: 20px;
+        margin-left: 100px;
+        margin-right: 40px;
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+        margin-left: 30px;
+        margin-right: 60px;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+    }
+
+    input {
+        width: 100%;
+        padding: 20px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    button {
+        background-color: rgb(250, 250, 250);
+        color: #5c4e4e;
+        padding: 10px 20px;
+        border-color: #5c4e4e;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+        width: 200px;
+    }
+
+    .sign_in .form button {
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+
+    button:hover {
+        background-color: rgb(212, 212, 212);
+    }
+
+    .sign_in .form h2 {
+        margin-left: 30px;
+    }
+
+    .sign_in .text {
+        padding: 50px;
+    }
+
+    #offer .image,
+    #publication .image {
+        padding-left: 70px;
+    }
+
+    #online_exam .image,
+    #header_section .image {
+        padding-left: 140px;
+    }
+
+    #header_menu_img {
+        padding-right: 80px;
+    }
+
+    #search_box {
+        padding-top: 15px;
+
+    }
+
+    #search_box input {
+        height: 10px;
+        width: 120%
+    }
+
+    #profile_pic {
+        padding-left: 100px;
+        padding-top: 15px;
+    }
+
+    #profile_pic button {
+        width: 60px;
+        height: 60px;
+        background-color: rgb(45, 100, 45);
+        border-radius: 50%;
+    }
+
+    #header_section li {
+        float: left;
+        padding-right: 15px;
+
+    }
+
+    #header_section .image {
+        padding-top: 30px;
+    }
+
+    #header_section .image img {
+        width: 80%;
+    }
+
+    #header_section .text h2,
+    #header_section .text h5 {
+        padding-left: 40px;
+    }
+
+    #header_section {
+        width: 100%;
+        /* Set the width of the parent container */
+        height: 450px;
+        /* Set the height of the parent container */
+        background-image: url('assets/image\ 22.png');
+        /* Replace with the path to your image */
+        background-size: cover;
+        /* Cover the entire container with the background image */
+        background-position: center;
+        /* Center the background image */
+        color: #fff;
+        /* Set text color to be visible on top of the image */
+    }
+
+    .subject {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 280%;
+        color: #4e4242;
+    }
+
+    .section .text h3 {
+        color: rgb(6, 110, 81);
+        font-size: 65px;
+        font-weight: bolder;
+    }
+
+    .section .text h4 {
+        color: #4e4242;
+        font-size: 50px;
+        font-weight: lighter;
+        margin-bottom: 5px;
+    }
+
+    .section .text p {
+        color: #615b5b;
+        font-weight: lighter;
+    }
+
+    #personnel .person {
+        display: inline-block;
+    }
+
+    #personnel img {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+
+    #personnel ul {
+        text-align: center;
+        margin-right: 90px;
+        margin-left: 90px;
+    }
+
+    .about_us {
+        padding-bottom: 50px;
+    }
+
+    .get_in_touch .subject {
+        margin-bottom: 0px;
+    }
+
+    .get_in_touch p {
+        text-align: center;
+        padding-right: 300px;
+        padding-left: 300px;
+        font-size: 20px;
+        margin-top: 0px;
+        color: #4e4242;
+    }
+
+    .info {
+        flex: 1;
+    }
+
+    .touch_form {
+        flex: 1;
+    }
+
+    .info_row {
+        float: left;
+    }
+
+    .main_row {
+        padding-bottom: 10px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    .info_form {
+        width: 45%;
+        padding: 20px;
+        border-radius: 4px;
+    }
+
+
+    .info_form-group {
+        margin-bottom: 15px;
+        margin-left: 30px;
+        margin-right: 60px;
+    }
+
+    .info_form input {
+
+        width: 160%;
+        padding: 20px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    #input_text {
+        height: 100px;
+    }
+
+    .form_info {
+        display: flex;
+        padding: 20px;
+    }
+
+    .form_info .info,
+    .form_info .touch_form {
+        padding: 10px;
+    }
+
+    .info {
+        width: 100px;
+        margin-left: 100px;
+        /*background-color: #4e4242;*/
+    }
+
+    .info #main_ul {
+        border: 2px solid #000;
+        border-radius: 10px;
+        /* background-color: yellow; */
+        width: 50%;
+        margin-top: 30px;
+        margin-left: 300px;
+        margin-right: 50px;
+        padding: 20px;
+        padding-right: 3px;
+        padding-left: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        /* Arrange items horizontally (default) */
+        justify-content: flex-start;
+        /* Align items to the start (left) of the container */
+        padding-bottom: 150px;
+    }
+
+    .image-container {
+        position: relative;
+        overflow: hidden;
+        margin: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    #game_develop_image {
+        margin-left: 80px;
+    }
+
+    #nature_of_sience {
+        margin-left: 80px;
+    }
+
+    .image-container img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 80%;
+        color: #fff;
+        padding: 8px;
+        text-align: left;
+        font-size: 200%;
+    }
+
+    .touch_form button {
+        margin-top: 40px;
+        margin-left: 150px;
+        height: 50px;
+        width: 250px
+    }
+
+    .information                                                                                                        {
+        display: flex;
+        flex-direction: row;
+        padding-top: 80px;
+        color: #fff;
+    }
+
+    .information * {
+        position: relative;
+        overflow: hidden;
+    }
+
+    #phrease {                                                              
+        margin-left: 60px;
+    }
+
+    #address {
+        margin-left: 280px;
+    }
+
+    #company {
+        margin-left: 140px;
+    }
+
+    .email-container {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 50px;
+        justify-content: center;
+    }
+
+    .email-box {
+        border-radius: 0;
+        padding: 10px;
+        width: 400px;
+        margin-right: 0px;
+        border-top: #fff;
+    }
+
+    .email-box::placeholder {
+        color: rgb(27, 67, 80);
+        font-size: 15px;
+    }
+
+    .submit-button {
+        border-radius: 0;
+        margin-left: 0px;
+        padding: 10px;
+        background-color: rgb(59, 117, 134);
+        border-bottom: rgb(59, 117, 134);
+        border-left: rgb(59, 117, 134);
+        border-right: rgb(59, 117, 134);
+        color: #fff;
+        cursor: pointer;
+        height: 60px;
+        width: 200px;
+        margin-top: 2px;
+    }
+
+    .subscribe {
+        text-align: center;
+    }
+
+    .subscribe h5 {
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: lighter;
+        margin-bottom: 30px;
+    }
+
+    .sign {
+        padding-left: 100px;
+    }
+
+    .sign ul
+    {
+        display: flex;
+    }
+
+    .sign img {
+        margin-right: 10px;
+        height: 35px;
+    }
+
+    .sign p {
+        color: #ffffff;
+        font-size: x-large;
+        font-weight: lighter;
+        margin-left: 10px;
+    }
+
+    #sign_img {
+        padding-top: 20px;
+    }
+
+    #info {
+        background-color: #000;
+    }
+
+    footer {
+        background-color: rgb(27, 53, 61);
+    }
+
+    #phrase_width
+    {
+        width: 50%;
+    }
+
+}
+
+
+/*for phones */
+@media only screen and (max-width: 767px) {
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header
+    {
+        display: none;
+    }
+
+    #header_section .text
+    {
+       padding-left: 0px;
+       padding-bottom: 30px;
+    }
+
+    #header_section .image
+    {
+        display: none;
+    }
+
+    .subject
+    {
+        font-size: 30px;
+    }
+
+    .sign_in
+    {
+        margin-top: 0px;
+        display: block;
+        padding: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .sign_in .text
+    {
+        margin: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: smaller;
+    }
+    
+    .sign_in .form
+    {
+        margin: 0px;
+        margin-top: 20px;
+        padding: 0px;
+        width: 100%;
+        transform: scale(1);
+    }
+
+    .sign_in .form form 
+    {
+        margin: 0px;
+        font-size: x-small;
+        padding: 20px;
+    }
+
+    .sign_in .form form *
+    {
+        margin-left: 0px;
+    }
+
+    .sign_in .form .form-group
+    {
+        padding-right: 20px;
+    }
+
+    .sign_in .form .form-group input
+    {
+        padding: 3px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .sign_in .form button
+    {
+        transform: scale(0.8);
+        margin-top: 40px;
+        margin-left: 0px;
+        background-color: darkslategrey;
+        color: #fff;
+        border: darkslategrey;
+    }
+
+    .section
+    {
+        display: block;
+        padding: 0px;
+    }
+
+    .section .image
+    {
+        flex: none;
+        padding: 0px;
+        padding-right: 60px;
+        margin-bottom: 10px;
+    }
+
+    .section .image img
+    {
+        flex: none;
+        justify-content: left;
+        margin: 0px;
+        height: 100%;
+    }
+
+    .section .text
+    {
+        margin: 0px;
+        margin-top: 40px;
+        padding: 0px;
+        padding-right: 30px;
+    }
+
+    .section .text .real_text
+    {
+        margin: 0px;
+        padding: 0px;
+        
+    }
+
+    .section .text .real_text *
+    {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: smaller;
+    }
+
+    .gallery
+    {
+        display: block;
+        padding: 0px;
+    }
+
+    .gallery .image-container
+    {
+        padding: 0px;
+    }
+
+    .gallery #game_develop_image
+    {
+        margin-left: 30px;
+    }
+
+    #online_exam
+    {
+        padding: 0px;
+    }
+
+    #online_exam .text
+    {
+        padding: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 50px;
+    }
+
+    #online_exam .text h3
+    {
+        font-size: 40px;
+    }
+
+    #online_exam .text h4
+    {
+        font-size: 30px;
+    }
+
+    #online_exam .text p
+    {
+        font-size: 20px;
+    }
+
+    #online_exam .text button
+    {
+        margin-left: -20px;
+        transform: scale(0.8);
+    }
+
+    #online_exam .image
+    {
+        padding: 0px;
+        margin: 20px 30px 30px 30px;
+    }
+
+    /**************************************/
+
+    #publication
+    {
+        margin-top: 50px;
+        padding: 0px;
+    }
+
+    #publication .text
+    {
+        padding: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 50px;
+    }
+
+    #publication .text h3
+    {
+        font-size: 40px;
+    }
+
+    #publication .text h4
+    {
+        font-size: 30px;
+    }
+
+    #publication .text p
+    {
+        font-size: 20px;
+    }
+
+    #publication .text button
+    {
+        margin-left: -20px;
+        transform: scale(0.8);
+    }
+
+    #publication .image
+    {
+        padding: 0px;
+        margin: 20px 30px 30px 30px;
+    }
+
+    .gallery #nature_of_sience
+    {
+        margin-left: 30px;
+    }
+
+    .about_us
+    {
+        padding: 0px;
+    }
+
+    .about_us #personnel
+    {
+        display: block;
+        padding: 0px;
+    }
+
+    .about_us #personnel .person
+    {
+        display: block;
+        padding: 0px;
+        margin: 0px;
+        margin-bottom: 40px;
+    }
+
+    .about_us #personnel .person ul
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .about_us #personnel .person ul img
+    {
+        
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .get_in_touch
+    {
+        padding: 0px;
+        margin: 0px;
+        background-color: yellow;
+    }
+
+    .get_in_touch p
+    {
+        margin: 10px;
+        padding: 0px;
+    }
+
+    .get_in_touch .form_info
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        background-color: darkred;
+    }
+
+    .get_in_touch .form_info .info
+    {
+        position: relative;
+        flex: none;
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(68, 12, 120);
+    }
+
+    .get_in_touch .form_info .info #main_ul
+    {
+        margin: 0px;
+        padding: 0px;
+        background-color: coral;
+    }
+
+    .get_in_touch .touch_form
+    {
+        flex: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: yellow;
+    }
+
+    .get_in_touch .touch_form .info_form
+    {
+        display: block;
+        float: non;
+        background-color: #ddd;
+    }
+
+    footer .information
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    footer .information #phrease
+    {
+        margin: 0px;
+        padding: 0px;
+        position:relative;
+        text-align: center;
+    }
+
+    footer .information #phrease ul
+    {
+        padding: 0px;
+    }
+
+    footer .information #phrease #phrase_width
+    {
+        width: 100%;
+    } 
+
+    footer .information #address
+    {
+        margin: 0px;
+        padding: 0px;
+        position:relative;
+        text-align: center;
+    }
+
+    
+    footer .information #company
+    {
+        margin: 0px;
+        padding: 0px;
+        position:relative;
+        text-align: center;
+    }
+
+    .subscribe
+    {
+        padding: 20px;
+    }
+
+    footer .subscribe h5
+    {
+        font-size: 20px;
+    }
+
+    footer .subscribe .email-container .email-box
+    {
+        height: 20px;
+    }
+
+    footer .subscribe .email-container .submit-button
+    {
+        margin-top: 5px;
+        height: 42px;
+       border: none;
+    }
+
+    footer .sign
+    {
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+
+    footer .sign ul
+    {
+        display: block;
+        padding: 0px;
+        text-align: center;
+    }
+
+    footer .sign ul *
+    {
+        margin: 0px;
+    }
+}
